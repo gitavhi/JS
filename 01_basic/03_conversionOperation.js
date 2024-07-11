@@ -11,9 +11,9 @@
  //  true =>1; false=> 0
      
 
-let isLoggedIn = 0
-let booleanIsLoggedIn = Boolean(isLoggedIn)
-console.log(booleanIsLoggedIn);
+//let isLoggedIn = 0
+//let booleanIsLoggedIn = Boolean(isLoggedIn)
+//console.log(booleanIsLoggedIn);
 
 
 /*
@@ -21,3 +21,9 @@ console.log(booleanIsLoggedIn);
 "" = false 
 "hitesh"= true
 */
+     
+
+
+
+// ************** Operations **************//
+ 
