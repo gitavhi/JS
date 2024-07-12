@@ -23,11 +23,12 @@ array,objects,functions.
 const heros = ["shaktiman","nagraj","rajeshhamal"]
 // array
 
- let myObj = {
+ /* let myObj = {
     name:"avi",
     age:22,
 } 
-//object
+// example of object
+*/ 
 
 const myFunction = function (){
     console.log("hello world");
@@ -48,10 +49,31 @@ ________________________________________________________________________________
  does implement [[Call]])	---------------------------> "function"
 8 - Object (host and does not implement [[Call]]) ------>  Implementation-defined except may not be 
                                                            "undefined", "boolean", "number", or "string".
-*/  
-_____________________________________________________________________________________________________________
  
+_____________________________________________________________________________________________________________
+*/  
 // using above function to find data type
-let number = 1000
+let number = "1000"
 console.log( number );
 console.log(typeof number); 
+
+
+//-------------------------------------------------------------------------------------------------------------
+
+/*   MEMORY (TWO TYPES)
+1.stack( use primitive)              2.Heap(use in non primitive)
+   -copy(dont change org value_)      -original(if we update org value update)
+   */
+
+let myName = "dialogona"
+let myAnotherName = myName
+myAnotherName = "dhiraj"
+console.log(myName);
+console.log(myAnotherName);
+
+let oneUser = {
+    email :"email@gmail.com",
+    upi:"9885",
+}
+oneUser.upi ="meroUpiNumber"
+console.log(oneUser);
